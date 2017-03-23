@@ -17,7 +17,6 @@ export const MYDRP_VALUE_ACCESSOR: any = {
 
 @Component({
     selector: "my-date-range-picker",
-    styles: [myDrpStyles],
     template: myDrpTemplate,
     providers: [DateRangeUtilService, MYDRP_VALUE_ACCESSOR],
     encapsulation: ViewEncapsulation.None
